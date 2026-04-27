@@ -30,14 +30,20 @@ Future game developer in the making.
 ---
 
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
-<a href="https://steamcommunity.com/id/reiteru/"><img src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"/></a>
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 ![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
 
+<br>
+
+### You can also meet them here
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=reiteru1367)](https://github.com/reiteru1367/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=reiteru1367)](https://github.com/reiteru1367/github-readme-stats)
+<a href="https://steamcommunity.com/id/reiteru/"><img src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"/></a>
+<a href="https://open.spotify.com/user/jung122955?si=fb09c7a93693472f"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"/></a>
+
+![](https://github-readme-stats.shion.dev/api?username=reiteru1367&theme=one_dark_pro&hide_border=true&include_all_commits=true&count_private=false)
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=reiteru1367&theme=one_dark_pro&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+
 
 
 </div>
