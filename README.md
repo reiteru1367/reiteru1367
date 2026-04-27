@@ -41,6 +41,10 @@ Future game developer in the making.
 <a href="https://steamcommunity.com/id/reiteru/"><img src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"/></a>
 <a href="https://open.spotify.com/user/jung122955?si=fb09c7a93693472f"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"/></a>
 
+---
+
+<br>
+
 ![](https://github-readme-stats.shion.dev/api?username=reiteru1367&theme=one_dark_pro&hide_border=true&include_all_commits=true&count_private=false)
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=reiteru1367&theme=one_dark_pro&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
 
