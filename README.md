@@ -45,9 +45,7 @@ Future game developer in the making.
 
 <br>
 
-</div>
-
-<div align="left">
   <img height="195" src="./profile/stats.svg" />
   <img height="195" src="./profile/top-langs.svg" />
+  
 </div>
