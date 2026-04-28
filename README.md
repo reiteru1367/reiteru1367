@@ -45,9 +45,9 @@ Future game developer in the making.
 
 <br>
 
-![](https://github-readme-stats.shion.dev/api?username=reiteru1367&theme=one_dark_pro&hide_border=true&include_all_commits=true&count_private=false)
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=reiteru1367&theme=one_dark_pro&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+</div>
 
-
-
+<div align="left">
+  <img height="195" src="./profile/stats.svg" />
+  <img height="195" src="./profile/top-langs.svg" />
 </div>
