@@ -1,0 +1,62 @@
+name: Generate repo card
+
+on:
+  workflow_dispatch:
+    inputs:
+      org:
+        description: "organization 이름 (없으면 공백)"
+        required: false
+        default: ""
+        type: string
+      repo:
+        description: "repository 이름"
+        required: true
+        type: string
+      theme:
+        description: "테마 (예: default, dark, tokyonight, radical)"
+        required: false
+        default: "default"
+        type: string
+      hide_border:
+        description: "테두리 숨기기"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set username
+        id: vars
+        run: |
+          ORG="${{ inputs.org }}"
+          if [ -z "$ORG" ]; then
+            echo "username=${{ github.repository_owner }}" >> $GITHUB_OUTPUT
+          else
+            echo "username=$ORG" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate repo card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ steps.vars.outputs.username }}&repo=${{ inputs.repo }}&theme=${{ inputs.theme }}&hide_border=${{ inputs.hide_border }}&bg_color=ffffff
+          path: profile/pin-${{ inputs.repo }}.svg
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Commit card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/pin-${{ inputs.repo }}.svg
+          git commit -m "Add repo card: ${{ inputs.repo }}" || exit 0
+          git pull --rebase
+          git push
