@@ -35,7 +35,7 @@ Future game developer in the making.
 
 <br>
 
-### You can also meet them here
+### You can also find me here
 ---
 
 <a href="https://steamcommunity.com/id/reiteru/"><img src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"/></a>
