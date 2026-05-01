@@ -45,8 +45,9 @@ Future game developer in the making.
 
 <br>
 
-![](https://github-readme-stats.shion.dev/api?username=reiteru1367&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=reiteru1367&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
+![](https://github-readme-stats.shion.dev/api?username=reiteru1367&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=reiteru1367&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-  
+<br>
+
 </div>
